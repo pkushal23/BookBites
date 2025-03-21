@@ -1,0 +1,229 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?restaurant') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.featured-items, .menu-section, .gallery-section, .contact-section {
+    background-color: white;
+    text-align: center; /* White background for sections */
+}
+
+.featured-item, .menu-item, .gallery-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu-item img, .gallery-item img, .featured-item img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.login-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.login-signup-form {
+    max-width: 400px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+}
+.btn-primary:hover {
+        background-color: #e45757;
+        border-color: #e45757;
+    }
+    
+    .about-section {
+        background-color: white;
+    }
+    
+    .about-section p {
+        line-height: 1.6;
+    }
+    
+    .contact-info {
+        margin-top: 20px;
+    }
+    
+    .contact-info p {
+        margin-bottom: 10px;
+    }
+    
+    .contact-info i {
+        margin-right: 10px;
+        color: #ff6b6b;
+    }
+    
+
+    @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        
+        .hero p {
+            font-size: 1rem;
+        }
+    
+        .featured-item, .menu-item, .gallery-item {
+            margin-bottom: 30px;
+        }
+    
+        .contact-form {
+            max-width: 100%;
+        }
+    }
+
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imgs/food.webp') center/cover no-repeat; /* Replace 'your-image.jpg' */
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+
+.featured-item img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+    transition: transform 0.3s ease;
+}
+
+.featured-item {
+    min-height: 350px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.featured-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+}
+.featured-item h3 {
+    margin-top: 10px;
+}
+.featured-item:hover img{
+    transform: scale(1.05); 
+}
+
+.featured-item p{
+    margin-bottom: 20px;
+}
+.about-us-image {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+}
+.menu-item img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+}
+
+.menu-item {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+}
+
+.menu-item p {
+    margin-bottom: 20px;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff6b6b;
+}
+.gallery-item img {
+    width: 100%; 
+    height: 250px;
+    object-fit: cover; 
+    border-radius: 8px; 
+    transition: transform 0.3s ease; 
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05); /
+}
+
+.gallery-item {
+    margin-bottom: 20px; 
+}
